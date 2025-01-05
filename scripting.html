@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Aurora Bistro</title>
+  <link rel="stylesheet" href="scripting.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Aurora Bistro</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="news.html">Out Locations</a></li>
+          <li><a href="models.html">Menu</a></li>
+          <li><a href="scripting.html">Save a spot</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+  <main>
+    <section id="contact">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <p>If you have any questions, feedback, or would like to make a reservation, feel free to contact us. We're here to help!</p>
+        
+        <h3>Our Locations</h3>
+        <ul>
+          <li><strong>Sofia:</strong> 34 Vitosha Street, 1000 Sofia, Bulgaria - Tel: +359 2 123 456</li>
+          <li><strong>Burgas:</strong> 47 Aleksandrovska Street, 8000 Burgas, Bulgaria - Tel: +359 56 789 012</li>
+          <li><strong>Ruse:</strong> 85 Aleksandrovska Street, 7000 Ruse, Bulgaria - Tel: +359 82 345 678</li>
+        </ul>
+
+        <h3>Email Us</h3>
+        <p>For inquiries, reservations, or any other questions, please email us at:</p>
+        <p><strong>Email:</strong> <a href="mailto:contact@aurorabistro.com">contact@aurorabistro.com</a></p>
+
+        <h3>Follow Us</h3>
+        <p>Stay updated on our latest offerings and news:</p>
+        <ul>
+          <li><a href="https://www.facebook.com/AuroraBistro" target="_blank">Facebook</a></li>
+          <li><a href="https://www.instagram.com/AuroraBistro" target="_blank">Instagram</a></li>
+          <li><a href="https://twitter.com/AuroraBistro" target="_blank">Twitter</a></li>
+        </ul>
+
+        <h3>Get in Touch</h3>
+        <form action="submit_form.php" method="post">
+          <label for="name">Your Name:</label>
+          <input type="text" id="name" name="name" required><br>
+
+          <label for="email">Your Email:</label>
+          <input type="email" id="email" name="email" required><br>
+
+          <label for="message">Your Message:</label><br>
+          <textarea id="message" name="message" rows="4" required></textarea><br>
+
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Aurora Bistro. All Rights Reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
